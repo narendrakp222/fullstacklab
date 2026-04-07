@@ -1,0 +1,23 @@
+#size {
+ font-size: 24px;
+}
+
+#weight {
+ font-weight: bold;
+}
+
+#style {
+ font-style: italic;
+}
+
+#decoration {
+ text-decoration: underline;
+}
+
+#transform {
+ text-transform: uppercase;
+}
+
+#align {
+ text-align: center;
+}

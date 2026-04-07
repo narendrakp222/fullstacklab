@@ -1,0 +1,29 @@
+/* Color Name */
+.colorname {
+ color: red;
+}
+
+/* HEX */
+.hexcolor {
+ color: #0000FF;
+}
+
+/* RGB */
+.rgbcolor {
+ color: rgb(0, 128, 0);
+}
+
+/* RGBA */
+.rgbacolor {
+ color: rgba(255, 0, 0, 0.5);
+}
+
+/* HSL */
+.hslcolor {
+ color: hsl(240, 100%, 50%);
+}
+
+/* HSLA */
+.hslacolor {
+ color: hsla(300, 100%, 50%, 0.6);
+}

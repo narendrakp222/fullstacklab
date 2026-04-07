@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User-defined Object Example</title>
+</head>
+<body>
+
+<h2>User-defined Object Demonstration</h2>
+<p id="output"></p>
+
+<script>
+
+function Person(name, age) {
+
+this.name = name;
+this.age = age;
+
+this.greet = function() {
+return "Hello, my name is " + this.name;
+};
+
+}
+
+const person1 = new Person("John", 25);
+
+Object.defineProperty(person1, "info", {
+get: function() {
+return this.name + " is " + this.age + " years old";
+}
+});
+
+document.getElementById("output").innerHTML =
+person1.greet() + "<br>" + person1.info;
+
+</script>
+
+</body>
+</html>

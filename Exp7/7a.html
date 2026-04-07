@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Document Object</title>
+</head>
+<body>
+
+<h2 id="heading">Document Object Example</h2>
+<p id="para">Original Text</p>
+
+<button onclick="changeContent()">Click Me</button>
+
+<script>
+
+function changeContent() {
+
+document.title = "Title Changed";
+
+document.getElementById("para").innerHTML =
+"Changed using document object";
+
+document.body.style.backgroundColor = "lightyellow";
+
+}
+
+</script>
+
+</body>
+</html>

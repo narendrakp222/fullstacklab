@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Denomination Program</title>
+</head>
+<body>
+
+<script>
+
+let amount = Number(prompt("Enter deposited amount:"));
+
+const notes = [100, 50, 20, 10, 5, 2, 1];
+
+document.write("<h3>Denomination:</h3>");
+
+for (let note of notes) {
+if (amount >= note) {
+const count = Math.floor(amount / note);
+amount = amount % note;
+document.write(count + " - " + note + "'s<br>");
+}
+}
+
+</script>
+
+</body>
+</html>

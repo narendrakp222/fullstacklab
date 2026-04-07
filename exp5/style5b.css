@@ -1,0 +1,9 @@
+body {
+ margin: 0;
+ height: 2000px;
+
+ background-image: url("/myphoto.png");
+ background-repeat: no-repeat;
+ background-position: center 50%;
+ background-attachment: fixed;
+}
